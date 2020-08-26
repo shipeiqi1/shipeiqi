@@ -840,7 +840,7 @@
     "@babel/types" "^7.4.4"
     esutils "^2.0.2"
 
-"@babel/runtime@^7.11.0", "@babel/runtime@^7.8.4":
+"@babel/runtime@7.x", "@babel/runtime@^7.11.0", "@babel/runtime@^7.8.4":
   version "7.11.2"
   resolved "https://registry.npm.taobao.org/@babel/runtime/download/@babel/runtime-7.11.2.tgz?cache=0&sync_timestamp=1596637820375&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40babel%2Fruntime%2Fdownload%2F%40babel%2Fruntime-7.11.2.tgz#f549c13c754cc40b87644b9fa9f09a6a95fe0736"
   integrity sha1-9UnBPHVMxAuHZEufqfCaapX+BzY=
@@ -1165,6 +1165,11 @@
     "@types/uglify-js" "*"
     "@types/webpack-sources" "*"
     source-map "^0.6.0"
+
+"@vant/icons@1.2.5":
+  version "1.2.5"
+  resolved "https://registry.npm.taobao.org/@vant/icons/download/@vant/icons-1.2.5.tgz#f3db43c4b300300829e3c4e909beaa33d1cbe786"
+  integrity sha1-89tDxLMAMAgp48TpCb6qM9HL54Y=
 
 "@vue/babel-helper-vue-jsx-merge-props@^1.0.0":
   version "1.0.0"
@@ -8737,6 +8742,16 @@ validate-npm-package-license@^3.0.1:
     spdx-correct "^3.0.0"
     spdx-expression-parse "^3.0.0"
 
+vant@^2.10.3:
+  version "2.10.3"
+  resolved "https://registry.npm.taobao.org/vant/download/vant-2.10.3.tgz#f8b7a32a91f5ee680454ac115b5be4683fd203d1"
+  integrity sha1-+LejKpH17mgEVKwRW1vkaD/SA9E=
+  dependencies:
+    "@babel/runtime" "7.x"
+    "@vant/icons" "1.2.5"
+    "@vue/babel-helper-vue-jsx-merge-props" "^1.0.0"
+    vue-lazyload "1.2.3"
+
 vary@~1.1.2:
   version "1.1.2"
   resolved "https://registry.npm.taobao.org/vary/download/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
@@ -8777,6 +8792,11 @@ vue-hot-reload-api@^2.3.0:
   version "2.3.4"
   resolved "https://registry.npm.taobao.org/vue-hot-reload-api/download/vue-hot-reload-api-2.3.4.tgz#532955cc1eb208a3d990b3a9f9a70574657e08f2"
   integrity sha1-UylVzB6yCKPZkLOp+acFdGV+CPI=
+
+vue-lazyload@1.2.3:
+  version "1.2.3"
+  resolved "https://registry.npm.taobao.org/vue-lazyload/download/vue-lazyload-1.2.3.tgz?cache=0&sync_timestamp=1568801872621&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fvue-lazyload%2Fdownload%2Fvue-lazyload-1.2.3.tgz#901f9ec15c7e6ca78781a2bae4a343686bdedb2c"
+  integrity sha1-kB+ewVx+bKeHgaK65KNDaGve2yw=
 
 "vue-loader-v16@npm:vue-loader@^16.0.0-beta.3":
   version "16.0.0-beta.5"
